@@ -1,2 +1,6 @@
 runners:
-  image: "ubuntu:18.04"
+  config: |
+    [[runners]]
+      [runners.kubernetes]
+        image = "ubuntu:18.04"
+        helper_cpu_limit = "200m"
