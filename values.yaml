@@ -1,5 +1,5 @@
-runner:
-  checkInterval: 10
+gitlab-runner:
+  checkInterval: 9
   config: |
     [[runners]]
       [runners.kubernetes]
