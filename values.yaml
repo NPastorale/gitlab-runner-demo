@@ -1,4 +1,5 @@
 runners:
+  checkInterval: 10
   config: |
     [[runners]]
       [runners.kubernetes]
