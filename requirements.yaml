@@ -1,4 +1,4 @@
 dependencies:
 - name: runner
   version: 0.48.0
-  repository: https://charts.gitlab.io/gitlab-runner
+  repository: https://gitlab.com/gitlab-org/charts/gitlab-runner
