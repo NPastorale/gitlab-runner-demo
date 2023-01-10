@@ -1,4 +1,4 @@
-runners:
+runner:
   checkInterval: 10
   config: |
     [[runners]]
