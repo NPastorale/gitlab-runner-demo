@@ -1,3 +1,2 @@
-runner:
-  runners:
-    image: "ubuntu:18.04"
+runners:
+  image: "ubuntu:18.04"
