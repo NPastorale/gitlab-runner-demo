@@ -4,3 +4,4 @@ runners:
       [runners.kubernetes]
         image = "ubuntu:18.04"
         helper_cpu_limit = "200m"
+checkInterval: 10
