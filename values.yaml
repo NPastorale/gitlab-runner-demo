@@ -1,6 +1,7 @@
 gitlab-runner:
   checkInterval: 9
   runnerRegistrationToken: "GR1348941759w8G9Xsnvs8yQvvBGW"
+  gitlabUrl: "https://gitlab.com/"
   config: |
     [[runners]]
       [runners.kubernetes]
