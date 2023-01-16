@@ -1,10 +1,9 @@
 gitlab-runner:
-  checkInterval: 9
+  checkInterval: 10
+  concurrent: 30
   runnerRegistrationToken: "GR1348941759w8G9Xsnvs8yQvvBGW"
   gitlabUrl: "https://gitlab.com/"
   config: |
     [[runners]]
       [runners.kubernetes]
-        image = "ubuntu:18.04"
-        helper_cpu_limit = "200m"
-checkInterval: 10
+        helper_cpu_limit = "1000m"
