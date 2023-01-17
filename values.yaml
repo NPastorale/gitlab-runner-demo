@@ -1,6 +1,6 @@
 gitlab-runner:
   checkInterval: 10
-  concurrent: 30
+  concurrent: 20
   runnerRegistrationToken: "GR1348941759w8G9Xsnvs8yQvvBGW"
   gitlabUrl: "https://gitlab.com/"
   config: |
